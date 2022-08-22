@@ -1,14 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- vanila CSS link -->
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    
-</body>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Favourit Player || Choise</title>
+        <!-- CSS link -->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <header class="header-wraper">
+            <div class="header-content">
+                <h1 class="header-title">Select your 5 Favourit players</h1>
+                <p class="header-text">Hi dear, It is time to meet your favourit players. Select your favourit player
+                    and invite them to play with them.</p>
+            </div>
+        </header>
+        <!-- main -->
+
+        <main>
+            <div class="players">
+                <!-- single player -->
+                <div class="player">
+                    <img src="img/alisson.jpg" alt="alison">
+                    <h3>Alisson</h3>
+                    <div class="btn-selector">
+                        <button class="btn-select" id="one">Select</button>
+                    </div>
+                </div>
+                <div class="player">
+                    <img src="img/christian-pulisic.jpg" alt="christian-pulisic">
+                    <h3>Christian Pulisic</h3>
+                    <div class="btn-selector">
+                        <button class="btn-select" id="two">Select</button>
+                    </div>
+                </div>
+                <div class="player">
+                    <img src="img/chrstiano-ronaldo.jpg" alt="chrstiano-ronaldo">
+                    <h3>Chirstian Ronaldo</h3>
+                    <div class="btn-selector">
+                        <button class="btn-select" id="three">Select</button>
+                    </div>
+                </div>
+
+                <!-- selection players -->
+                <div class="selected-five">
+                    <h2>Selected-5</h2>
+                    <ul>
+                        <li><span>1.</span> item-1</li>
+                        <li><span>2.</span> item-2</li>
+                        <li><span>3.</span> item-3</li>
+                        <li><span>4.</span> item-4</li>
+                        <li><span>5.</span> item-5</li>
+                    </ol>
+                </div>
+                <div class="player">
+                    <img src="img/gareth-bale.jpg" alt="gareth-bale">
+                    <h3>Gareth Bale</h3>
+                    <div class="btn-selector">
+                        <button class="btn-select" id="four">Select</button>
+                    </div>
+                </div>
+                <div class="player">
+                    <img src="img/hulk.jpg" alt="hulk">
+                    <h3>Hulk</h3>
+                    <div class="btn-selector">
+                        <button class="btn-select" id="five">Select</button>
+                    </div>
+                </div>
+                <div class="player">
+                    <img src="img/landon-donovan.jpg" alt="landon-donovan">
+                    <h3>Landon Donovan</h3>
+                    <div class="btn-selector">
+                        <button class="btn-select" id="six">Select</button>
+                    </div>
+                </div>
+
+                <!-- budget calculation -->
+
+                <div class="budget">
+                    <h2>Budget</h2>
+                    <label>Per Player</label>
+                    <input type="text" placeholder="1000">
+                    <button class="btn-calculate">Calculate</button>
+                    <label>Player Expenses</label>
+                    <div class="player-expens">$<span>5000</span></div>
+                    <label>Manager</label>
+                    <input type="text" placeholder="2000">
+                    <label>Couch</label>
+                    <input type="text" placeholder="4000">
+                    <button class="btn-calculate">Calculate Total</button>
+                    <label class="total">Total</label>
+                    <p>$<span>11000</span></p>
+                </div>
+
+                <div class="player">
+                    <img src="img/lionel-messi.jpg" alt="lionel-messi">
+                    <h3>Lionel Messi</h3>
+                    <div class="btn-selector">
+                        <button class="btn-select" id="seven">Select</button>
+                    </div>
+                </div>
+                <div class="player">
+                    <img src="img/luca-toni.jpg" alt="luca-toni">
+                    <h3>Luca Toni</h3>
+                    <div class="btn-selector">
+                        <button class="btn-select" id="eight">Select</button>
+                    </div>
+                </div>
+                <div class="player">
+                    <img src="img/neymar.jpg" alt="neymar">
+                    <h3>Neymar Jr</h3>
+                    <div class="btn-selector">
+                        <button class="btn-select" id="nine">Select</button>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+    </body>
+
 </html>

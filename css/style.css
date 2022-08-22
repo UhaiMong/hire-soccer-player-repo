@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1e1818;
+}
+.header-content{
+    background-image: url('/img/header-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    padding: 60px 0;
+}
+.header-title{
+    color: crimson;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.header-text{
+    color: white;
+    font-size: 20px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    float: right;
+    gap: 20px;
+    width: 90%;
+    margin-top: 40px;
+}
+.player img{
+    width: 100%;
+    height: 500px;
+}
+.player{
+    background-color: #120e0e;
+    border: 2px gray solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.player h3{
+    color: white;
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 20px;
+}
+.selected-five{
+    background-color: black;
+}
+.selected-five h2{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-weight: normal;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.selected-five li{
+    color: white;
+    padding: 12px;
+    margin-left: 50px;
+    font-size: 30px;
+    list-style: none;
+}
+.selected-five span{
+    color: gray;
+    margin-right: 12px;
+}
+.budget{
+    background-color: black;
+}
+.budget label{
+    color: gray;
+    font-size: 22px;
+    padding: 12px;
+    display: inline;
+}
+.player-expens{
+    color: white;
+    display: block;
+}
+.budget h2{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.btn-select{
+    padding: 12px;
+    width: 100%;
+    margin: auto 0;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #6464e3;
+    color: white;
+}
+.btn-calculate{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    padding: 15px 0;
+    background-color: #4d76f0;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-top: 30px;
+}
+.btn-select:hover{
+    background-color: #a5a3a3;
+}
+.btn-select:disabled{
+    background-color: #b8a6a6;
+}
+.btn-selector{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
