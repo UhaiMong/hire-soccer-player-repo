@@ -44,14 +44,13 @@ body{
     border: 2px gray solid;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 .player h3{
     color: white;
-    font-size: 30px;
+    font-size: 23px;
     font-weight: normal;
     text-align: center;
-    margin-top: 20px;
 }
 .selected-five{
     background-color: black;
@@ -68,13 +67,9 @@ body{
     color: white;
     padding: 12px;
     margin-left: 50px;
-    font-size: 30px;
-    list-style: none;
+    font-size: 23px;
 }
-.selected-five span{
-    color: gray;
-    margin-right: 12px;
-}
+
 .budget{
     background-color: black;
 }
