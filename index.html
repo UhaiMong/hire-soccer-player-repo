@@ -6,8 +6,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Favourit Player || Choise</title>
-        <!-- CSS link -->
+        <!-- CSS link for desktop-->
         <link rel="stylesheet" href="css/style.css">
+        <!-- CSS link for tab -->
     </head>
 
     <body>
@@ -25,7 +26,7 @@
                 <!-- single player -->
                 <div class="player">
                     <img src="img/alisson.jpg" alt="alison">
-                    <h3>Alisson</h3>
+                    <h3 id="playerName1">Alisson</h3>
                     <div class="btn-selector">
                         <button class="btn-select" id="one">Select</button>
                     </div>
@@ -48,13 +49,13 @@
                 <!-- selection players -->
                 <div class="selected-five">
                     <h2>Selected-5</h2>
-                    <ul>
+                    <ol id="playersList">
                         <li><span>1.</span> item-1</li>
                         <li><span>2.</span> item-2</li>
                         <li><span>3.</span> item-3</li>
                         <li><span>4.</span> item-4</li>
                         <li><span>5.</span> item-5</li>
-                        </ol>
+                    </ol>
                 </div>
                 <div class="player">
                     <img src="img/gareth-bale.jpg" alt="gareth-bale">
@@ -84,25 +85,25 @@
                     <h2>Budget</h2>
                     <div class="per-player">
                         <label>Per Player</label>
-                        <input type="text" placeholder="1000">
+                        <input id="perPlayerPrice" type="text" placeholder="1000">
                     </div>
-                    <button class="btn-calculate">Calculate</button>
+                    <button id="totalCostForPlayers" class="btn-calculate">Calculate</button>
                     <div class="player-expense">
                         <label>Player Expenses</label>
-                        <p>$<span>5000</span></p>
+                        <p>$<span id="totalCostForPlayer">5000</span></p>
                     </div>
                     <div class="manager">
                         <label>Manager</label>
-                        <input type="text" placeholder="2000">
+                        <input id="manager-field" type="text" placeholder="2000">
                     </div>
                     <div class="couch">
                         <label>Couch</label>
-                        <input type="text" placeholder="4000">
+                        <input id="couch-field" type="text" placeholder="4000">
                     </div>
-                    <button class="btn-calculate">Calculate Total</button>
+                    <button id="total-cost-calculator" class="btn-calculate">Calculate Total</button>
                     <div class="total">
                         <label class="total">Total</label>
-                        <p>$<span>11000</span></p>
+                        <p>$<span id="total-cost-for-all">11000</span></p>
                     </div>
                 </div>
 
@@ -136,6 +137,8 @@
         <footer>
             <p>&copy;All right reserved by autor.</p>
         </footer>
+
+        <script src="js/script.js"></script>
     </body>
 
 </html>
